@@ -1,0 +1,43 @@
+[Eagle]
+Version="09 06 02"
+Platform="Windows"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibraryUrn="urn:adsk.eagle:library:208"
+UsedLibraryUrn="urn:adsk.eagle:library:210"
+UsedLibraryUrn="urn:adsk.eagle:library:233"
+UsedLibraryUrn="urn:adsk.eagle:library:239"
+UsedLibraryUrn="urn:adsk.eagle:library:248"
+UsedLibraryUrn="urn:adsk.eagle:library:259"
+UsedLibraryUrn="urn:adsk.eagle:library:334"
+UsedLibraryUrn="urn:adsk.eagle:library:339"
+UsedLibraryUrn="urn:adsk.eagle:library:371"
+UsedLibraryUrn="urn:adsk.eagle:library:372"
+UsedLibraryUrn="urn:adsk.eagle:library:109"
+UsedLibraryUrn="urn:adsk.eagle:library:380"
+UsedLibraryUrn="urn:adsk.eagle:library:113"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/17PB024.lbr"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/TB6643KQ.lbr"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/SMLE13BC8TT86.lbr"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/SML-E12P8WT86.lbr"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/SE50PAJ-M3_I.lbr"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/TC74HC08AF_F_.lbr"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/S8B-PH-K-S_LF__SN_.lbr"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/S7B-PH-K-S_LF__SN_.lbr"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/BS2P-SHF-1AA__LF__SN_.lbr"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/2SK4017_Q_.lbr"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/TLP785_GB_F_.lbr"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/S2B-PH-K-S_LF__SN_.lbr"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/BS3P-SHF-1AA__LF__SN_.lbr"
+UsedLibrary="C:/Users/IronCrimSalmon/Downloads/EAGLE/GF063P.lbr"
+
+[Win_1]
+Type="Control Panel"
+Number=0
+
+[Desktop]
+Screen="3840 1280"
+Window="Win_1"
