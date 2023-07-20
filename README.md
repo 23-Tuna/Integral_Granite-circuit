@@ -1,2 +1,2 @@
-# Integral_Central-code
-Integral Central Program
+# Integral_Granite-circuit
+Integralの中央基盤Graniteの回路データ
