@@ -1643,7 +1643,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BR1" library="SE50PAJ-M3_I" package="SE50PAJM3I" value="SE50PAJ-M3_I" x="-20.32" y="78.74" smashed="yes">
+<element name="D1" library="SE50PAJ-M3_I" package="SE50PAJM3I" value="SE50PAJ-M3_I" x="-20.32" y="78.74" smashed="yes">
 <attribute name="DESCRIPTION" value="DIODE GEN PURP 600V 1.6A DO221BC" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Vishay" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1653,7 +1653,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-20.32" y="78.74" size="1.27" layer="27" align="center"/>
 </element>
-<element name="BR2" library="SE50PAJ-M3_I" package="SE50PAJM3I" value="SE50PAJ-M3_I" x="-34.29" y="78.74" smashed="yes">
+<element name="D2" library="SE50PAJ-M3_I" package="SE50PAJM3I" value="SE50PAJ-M3_I" x="-34.29" y="78.74" smashed="yes">
 <attribute name="DESCRIPTION" value="DIODE GEN PURP 600V 1.6A DO221BC" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Vishay" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1669,7 +1669,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-43.815" y="75.565" size="1.27" layer="27"/>
 </element>
-<element name="IC1" library="TB6643KQ" package="TB6643KQ" value="TB6643KQ" x="-58.42" y="67.31" smashed="yes">
+<element name="A1" library="TB6643KQ" package="TB6643KQ" value="TB6643KQ" x="-58.42" y="67.31" smashed="yes">
 <attribute name="DESCRIPTION" value="IC MOTOR DRIVER 10V-45V 7HSIP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="16.5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Toshiba" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1679,7 +1679,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-50.8" y="67.31" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC2" library="TB6643KQ" package="TB6643KQ" value="TB6643KQ" x="-30.48" y="73.66" smashed="yes">
+<element name="A2" library="TB6643KQ" package="TB6643KQ" value="TB6643KQ" x="-30.48" y="73.66" smashed="yes">
 <attribute name="DESCRIPTION" value="IC MOTOR DRIVER 10V-45V 7HSIP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="16.5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Toshiba" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1689,7 +1689,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-22.86" y="73.66" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC3" library="TB6643KQ" package="TB6643KQ" value="TB6643KQ" x="-50.8" y="73.66" smashed="yes">
+<element name="B1" library="TB6643KQ" package="TB6643KQ" value="TB6643KQ" x="-50.8" y="73.66" smashed="yes">
 <attribute name="DESCRIPTION" value="IC MOTOR DRIVER 10V-45V 7HSIP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="16.5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Toshiba" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1699,7 +1699,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-43.18" y="73.66" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC4" library="TB6643KQ" package="TB6643KQ" value="TB6643KQ" x="-71.12" y="73.66" smashed="yes">
+<element name="B2" library="TB6643KQ" package="TB6643KQ" value="TB6643KQ" x="-71.12" y="73.66" smashed="yes">
 <attribute name="DESCRIPTION" value="IC MOTOR DRIVER 10V-45V 7HSIP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="16.5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Toshiba" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1729,7 +1729,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-34.29" y="67.31" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J1" library="S7B-PH-K-S_LF__SN_" package="SHDRRA7W50P0X200_1X7_1590X760X" value="S7B-PH-K-S_LF__SN_" x="-57.15" y="44.45" smashed="yes">
+<element name="SIGA" library="S7B-PH-K-S_LF__SN_" package="SHDRRA7W50P0X200_1X7_1590X760X" value="S7B-PH-K-S_LF__SN_" x="-57.15" y="44.45" smashed="yes">
 <attribute name="DESCRIPTION" value="JST PH Series, Series Number S7B, 2mm Pitch 7 Way 1 Row Right Angle PCB Header, Through Hole Termination, 2A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="4.8mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1739,7 +1739,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8201513P" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-57.15" y="44.45" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J10" library="S2B-PH-K-S_LF__SN_" package="SHDRRA2W50P0X200_1X2_590X760X4" value="S2B-PH-K-S_LF__SN_" x="-67.31" y="57.15" smashed="yes">
+<element name="VDD" library="S2B-PH-K-S_LF__SN_" package="SHDRRA2W50P0X200_1X2_590X760X4" value="S2B-PH-K-S_LF__SN_" x="-67.31" y="57.15" smashed="yes">
 <attribute name="DESCRIPTION" value="PH-2.0mm Header side entry 2 way JST PH Series, Series Number S2B, 2mm Pitch 2 Way 1 Row Right Angle PCB Header, Through Hole Termination, 2A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="4.8mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1749,7 +1749,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8201494P" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-67.31" y="57.15" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J11" library="BS3P-SHF-1AA__LF__SN_" package="HDRRA3W64P0X250_1X3_750X600X56" value="BS3P-SHF-1AA__LF__SN_" x="-25.4" y="45.72" smashed="yes">
+<element name="VS" library="BS3P-SHF-1AA__LF__SN_" package="HDRRA3W64P0X250_1X3_750X600X56" value="BS3P-SHF-1AA__LF__SN_" x="-25.4" y="45.72" smashed="yes">
 <attribute name="DESCRIPTION" value="JST HVQ Series, 2.5mm Pitch 3 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="5.6mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1759,7 +1759,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/5468568" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-25.4" y="45.72" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J2" library="S7B-PH-K-S_LF__SN_" package="SHDRRA7W50P0X200_1X7_1590X760X" value="S7B-PH-K-S_LF__SN_" x="-22.86" y="57.15" smashed="yes">
+<element name="SIGB" library="S7B-PH-K-S_LF__SN_" package="SHDRRA7W50P0X200_1X7_1590X760X" value="S7B-PH-K-S_LF__SN_" x="-22.86" y="57.15" smashed="yes">
 <attribute name="DESCRIPTION" value="JST PH Series, Series Number S7B, 2mm Pitch 7 Way 1 Row Right Angle PCB Header, Through Hole Termination, 2A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="4.8mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1769,7 +1769,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8201513P" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-22.86" y="57.15" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J3" library="BS2P-SHF-1AA__LF__SN_" package="BS2PSHF1AALFSN" value="BS2P-SHF-1AA__LF__SN_" x="-25.4" y="7.62" smashed="yes">
+<element name="A1M" library="BS2P-SHF-1AA__LF__SN_" package="BS2PSHF1AALFSN" value="BS2P-SHF-1AA__LF__SN_" x="-25.4" y="7.62" smashed="yes">
 <attribute name="DESCRIPTION" value="JST NH Series, 2.5mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1779,7 +1779,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/5468552" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-25.4" y="7.62" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J4" library="BS2P-SHF-1AA__LF__SN_" package="BS2PSHF1AALFSN" value="BS2P-SHF-1AA__LF__SN_" x="-49.53" y="7.62" smashed="yes">
+<element name="A2M" library="BS2P-SHF-1AA__LF__SN_" package="BS2PSHF1AALFSN" value="BS2P-SHF-1AA__LF__SN_" x="-49.53" y="7.62" smashed="yes">
 <attribute name="DESCRIPTION" value="JST NH Series, 2.5mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1789,7 +1789,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/5468552" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-49.53" y="7.62" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J5" library="BS2P-SHF-1AA__LF__SN_" package="BS2PSHF1AALFSN" value="BS2P-SHF-1AA__LF__SN_" x="-25.4" y="21.59" smashed="yes">
+<element name="B1M" library="BS2P-SHF-1AA__LF__SN_" package="BS2PSHF1AALFSN" value="BS2P-SHF-1AA__LF__SN_" x="-25.4" y="21.59" smashed="yes">
 <attribute name="DESCRIPTION" value="JST NH Series, 2.5mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1799,7 +1799,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/5468552" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-25.4" y="21.59" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J6" library="BS2P-SHF-1AA__LF__SN_" package="BS2PSHF1AALFSN" value="BS2P-SHF-1AA__LF__SN_" x="-49.53" y="21.59" smashed="yes">
+<element name="B2M" library="BS2P-SHF-1AA__LF__SN_" package="BS2PSHF1AALFSN" value="BS2P-SHF-1AA__LF__SN_" x="-49.53" y="21.59" smashed="yes">
 <attribute name="DESCRIPTION" value="JST NH Series, 2.5mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1809,7 +1809,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/5468552" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-49.53" y="21.59" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J7" library="BS2P-SHF-1AA__LF__SN_" package="BS2PSHF1AALFSN" value="BS2P-SHF-1AA__LF__SN_" x="-25.4" y="35.56" smashed="yes">
+<element name="VDRIB" library="BS2P-SHF-1AA__LF__SN_" package="BS2PSHF1AALFSN" value="BS2P-SHF-1AA__LF__SN_" x="-25.4" y="35.56" smashed="yes">
 <attribute name="DESCRIPTION" value="JST NH Series, 2.5mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1819,7 +1819,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/5468552" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-25.4" y="35.56" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J8" library="BS2P-SHF-1AA__LF__SN_" package="BS2PSHF1AALFSN" value="BS2P-SHF-1AA__LF__SN_" x="-49.53" y="35.56" smashed="yes">
+<element name="VSOL" library="BS2P-SHF-1AA__LF__SN_" package="BS2PSHF1AALFSN" value="BS2P-SHF-1AA__LF__SN_" x="-49.53" y="35.56" smashed="yes">
 <attribute name="DESCRIPTION" value="JST NH Series, 2.5mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1829,7 +1829,7 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/5468552" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-49.53" y="35.56" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J9" library="S2B-PH-K-S_LF__SN_" package="SHDRRA2W50P0X200_1X2_590X760X4" value="S2B-PH-K-S_LF__SN_" x="-46.99" y="57.15" smashed="yes">
+<element name="SIGC" library="S2B-PH-K-S_LF__SN_" package="SHDRRA2W50P0X200_1X2_590X760X4" value="S2B-PH-K-S_LF__SN_" x="-46.99" y="57.15" smashed="yes">
 <attribute name="DESCRIPTION" value="PH-2.0mm Header side entry 2 way JST PH Series, Series Number S2B, 2mm Pitch 2 Way 1 Row Right Angle PCB Header, Through Hole Termination, 2A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="4.8mm" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1950,39 +1950,39 @@ design rules under a new name.</description>
 </elements>
 <signals>
 <signal name="+12V">
-<contactref element="IC1" pad="7"/>
-<contactref element="IC2" pad="7"/>
-<contactref element="IC4" pad="7"/>
-<contactref element="IC3" pad="7"/>
-<contactref element="J11" pad="2"/>
+<contactref element="A1" pad="7"/>
+<contactref element="A2" pad="7"/>
+<contactref element="B2" pad="7"/>
+<contactref element="B1" pad="7"/>
+<contactref element="VS" pad="2"/>
 <wire x1="-35.56" y1="73.66" x2="-15.24" y2="73.66" width="0" layer="19" extent="1-1"/>
 <wire x1="-43.18" y1="67.31" x2="-35.56" y2="73.66" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.88" y1="73.66" x2="-43.18" y2="67.31" width="0" layer="19" extent="1-1"/>
 <wire x1="-22.9" y1="45.72" x2="-15.24" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
-<contactref element="IC1" pad="4"/>
-<contactref element="IC2" pad="4"/>
-<contactref element="IC4" pad="4"/>
-<contactref element="IC3" pad="4"/>
-<contactref element="J1" pad="1"/>
-<contactref element="J1" pad="7"/>
-<contactref element="J2" pad="7"/>
-<contactref element="J2" pad="1"/>
+<contactref element="A1" pad="4"/>
+<contactref element="A2" pad="4"/>
+<contactref element="B2" pad="4"/>
+<contactref element="B1" pad="4"/>
+<contactref element="SIGA" pad="1"/>
+<contactref element="SIGA" pad="7"/>
+<contactref element="SIGB" pad="7"/>
+<contactref element="SIGB" pad="1"/>
 <contactref element="LED1" pad="1"/>
 <contactref element="LED2" pad="1"/>
 <contactref element="LED3" pad="1"/>
-<contactref element="J2" pad="4"/>
-<contactref element="J1" pad="4"/>
+<contactref element="SIGB" pad="4"/>
+<contactref element="SIGA" pad="4"/>
 <contactref element="IC5" pad="2"/>
 <contactref element="IC6" pad="2"/>
-<contactref element="J10" pad="2"/>
+<contactref element="VDD" pad="2"/>
 <contactref element="Q1" pad="3"/>
 <contactref element="Q2" pad="3"/>
 <contactref element="R9" pad="1"/>
 <contactref element="VR1" pad="3"/>
 <contactref element="R8" pad="1"/>
-<contactref element="J11" pad="3"/>
+<contactref element="VS" pad="3"/>
 <wire x1="-22.49" y1="86.36" x2="-14.45" y2="82.55" width="0" layer="19" extent="1-1"/>
 <wire x1="-27.15" y1="82.55" x2="-22.49" y2="86.36" width="0" layer="19" extent="1-1"/>
 <wire x1="-22.86" y1="73.66" x2="-27.15" y2="82.55" width="0" layer="19" extent="1-1"/>
@@ -2007,11 +2007,11 @@ design rules under a new name.</description>
 </signal>
 <signal name="+3V3">
 <contactref element="R1" pad="2"/>
-<contactref element="J10" pad="1"/>
+<contactref element="VDD" pad="1"/>
 <contactref element="IC5" pad="4"/>
 <contactref element="IC6" pad="4"/>
-<contactref element="J7" pad="1"/>
-<contactref element="BR1" pad="1"/>
+<contactref element="VDRIB" pad="1"/>
+<contactref element="D1" pad="1"/>
 <wire x1="-16.51" y1="68.58" x2="-21.53" y2="78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.48" y1="68.58" x2="-21.53" y2="78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.14" y1="77.47" x2="-30.48" y2="68.58" width="0" layer="19" extent="1-1"/>
@@ -2019,83 +2019,83 @@ design rules under a new name.</description>
 <wire x1="-26.65" y1="38.31" x2="-30.48" y2="68.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
-<contactref element="J1" pad="2"/>
-<contactref element="IC1" pad="1"/>
+<contactref element="SIGA" pad="2"/>
+<contactref element="A1" pad="1"/>
 <wire x1="-58.42" y1="67.31" x2="-59.15" y2="44.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
-<contactref element="J1" pad="3"/>
-<contactref element="IC1" pad="2"/>
+<contactref element="SIGA" pad="3"/>
+<contactref element="A1" pad="2"/>
 <wire x1="-55.88" y1="67.31" x2="-61.15" y2="44.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
-<contactref element="J1" pad="5"/>
-<contactref element="IC2" pad="1"/>
+<contactref element="SIGA" pad="5"/>
+<contactref element="A2" pad="1"/>
 <wire x1="-65.15" y1="44.45" x2="-30.48" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
-<contactref element="J1" pad="6"/>
-<contactref element="IC2" pad="2"/>
+<contactref element="SIGA" pad="6"/>
+<contactref element="A2" pad="2"/>
 <wire x1="-67.15" y1="44.45" x2="-27.94" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
-<contactref element="J2" pad="2"/>
-<contactref element="IC3" pad="1"/>
+<contactref element="SIGB" pad="2"/>
+<contactref element="B1" pad="1"/>
 <wire x1="-50.8" y1="73.66" x2="-24.86" y2="57.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
-<contactref element="J2" pad="3"/>
-<contactref element="IC3" pad="2"/>
+<contactref element="SIGB" pad="3"/>
+<contactref element="B1" pad="2"/>
 <wire x1="-48.26" y1="73.66" x2="-26.86" y2="57.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
-<contactref element="J2" pad="5"/>
-<contactref element="IC4" pad="1"/>
+<contactref element="SIGB" pad="5"/>
+<contactref element="B2" pad="1"/>
 <wire x1="-71.12" y1="73.66" x2="-30.86" y2="57.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
-<contactref element="J2" pad="6"/>
-<contactref element="IC4" pad="2"/>
+<contactref element="SIGB" pad="6"/>
+<contactref element="B2" pad="2"/>
 <wire x1="-68.58" y1="73.66" x2="-32.86" y2="57.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
-<contactref element="IC1" pad="3"/>
-<contactref element="J3" pad="1"/>
+<contactref element="A1" pad="3"/>
+<contactref element="A1M" pad="1"/>
 <wire x1="-53.34" y1="67.31" x2="-26.65" y2="10.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
-<contactref element="IC1" pad="5"/>
-<contactref element="J3" pad="2"/>
+<contactref element="A1" pad="5"/>
+<contactref element="A1M" pad="2"/>
 <wire x1="-24.15" y1="10.37" x2="-48.26" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
-<contactref element="IC2" pad="3"/>
-<contactref element="J4" pad="1"/>
+<contactref element="A2" pad="3"/>
+<contactref element="A2M" pad="1"/>
 <wire x1="-50.78" y1="10.37" x2="-25.4" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
-<contactref element="IC2" pad="5"/>
-<contactref element="J4" pad="2"/>
+<contactref element="A2" pad="5"/>
+<contactref element="A2M" pad="2"/>
 <wire x1="-48.28" y1="10.37" x2="-20.32" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
-<contactref element="IC3" pad="3"/>
-<contactref element="J5" pad="1"/>
+<contactref element="B1" pad="3"/>
+<contactref element="B1M" pad="1"/>
 <wire x1="-26.65" y1="24.34" x2="-45.72" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
-<contactref element="IC3" pad="5"/>
-<contactref element="J5" pad="2"/>
+<contactref element="B1" pad="5"/>
+<contactref element="B1M" pad="2"/>
 <wire x1="-24.15" y1="24.34" x2="-40.64" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
-<contactref element="IC4" pad="3"/>
-<contactref element="J6" pad="1"/>
+<contactref element="B2" pad="3"/>
+<contactref element="B2M" pad="1"/>
 <wire x1="-66.04" y1="73.66" x2="-50.78" y2="24.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
-<contactref element="J6" pad="2"/>
-<contactref element="IC4" pad="5"/>
+<contactref element="B2M" pad="2"/>
+<contactref element="B2" pad="5"/>
 <wire x1="-60.96" y1="73.66" x2="-48.28" y2="24.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
@@ -2115,15 +2115,15 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$20">
 <contactref element="Q1" pad="2"/>
-<contactref element="J7" pad="2"/>
-<contactref element="BR1" pad="2"/>
+<contactref element="VDRIB" pad="2"/>
+<contactref element="D1" pad="2"/>
 <wire x1="-18.31" y1="78.74" x2="-16.75" y2="82.55" width="0" layer="19" extent="1-1"/>
 <wire x1="-24.15" y1="38.31" x2="-18.31" y2="78.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="Q2" pad="2"/>
-<contactref element="J8" pad="2"/>
-<contactref element="BR2" pad="2"/>
+<contactref element="VSOL" pad="2"/>
+<contactref element="D2" pad="2"/>
 <wire x1="-32.28" y1="78.74" x2="-29.45" y2="82.55" width="0" layer="19" extent="1-1"/>
 <wire x1="-48.28" y1="38.31" x2="-32.28" y2="78.74" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2145,14 +2145,14 @@ design rules under a new name.</description>
 <wire x1="-63.08" y1="77.47" x2="-38.1" y2="68.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIBBLER">
-<contactref element="J9" pad="1"/>
+<contactref element="SIGC" pad="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="R4" pad="2"/>
 <wire x1="-57.57" y1="77.47" x2="-49.95" y2="77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.99" y1="57.15" x2="-49.95" y2="77.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="KICKER">
-<contactref element="J9" pad="2"/>
+<contactref element="SIGC" pad="2"/>
 <contactref element="R5" pad="2"/>
 <wire x1="-48.99" y1="57.15" x2="-61.38" y2="77.47" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2180,9 +2180,9 @@ design rules under a new name.</description>
 <wire x1="-40.68" y1="47.03" x2="-43.18" y2="49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+24V">
-<contactref element="J8" pad="1"/>
-<contactref element="J11" pad="1"/>
-<contactref element="BR2" pad="1"/>
+<contactref element="VSOL" pad="1"/>
+<contactref element="VS" pad="1"/>
+<contactref element="D2" pad="1"/>
 <wire x1="-25.4" y1="45.72" x2="-35.5" y2="78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="-50.78" y1="38.31" x2="-25.4" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>

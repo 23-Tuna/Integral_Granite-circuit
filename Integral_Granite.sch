@@ -268,85 +268,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="S7B-PH-K-S_LF__SN_">
-<description>&lt;JST PH Series, Series Number S7B, 2mm Pitch 7 Way 1 Row Right Angle PCB Header, Through Hole Termination, 2A&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SHDRRA7W50P0X200_1X7_1590X760X">
-<description>&lt;b&gt;S7B-PH-K-S(LF)(SN)&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="0.9" diameter="1.35" shape="square"/>
-<pad name="2" x="-2" y="0" drill="0.9" diameter="1.35"/>
-<pad name="3" x="-4" y="0" drill="0.9" diameter="1.35"/>
-<pad name="4" x="-6" y="0" drill="0.9" diameter="1.35"/>
-<pad name="5" x="-8" y="0" drill="0.9" diameter="1.35"/>
-<pad name="6" x="-10" y="0" drill="0.9" diameter="1.35"/>
-<pad name="7" x="-12" y="0" drill="0.9" diameter="1.35"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="2.2" y1="-1.6" x2="-14.2" y2="-1.6" width="0.05" layer="51"/>
-<wire x1="-14.2" y1="-1.6" x2="-14.2" y2="6.5" width="0.05" layer="51"/>
-<wire x1="-14.2" y1="6.5" x2="2.2" y2="6.5" width="0.05" layer="51"/>
-<wire x1="2.2" y1="6.5" x2="2.2" y2="-1.6" width="0.05" layer="51"/>
-<wire x1="1.95" y1="-1.35" x2="-13.95" y2="-1.35" width="0.1" layer="51"/>
-<wire x1="-13.95" y1="-1.35" x2="-13.95" y2="6.25" width="0.1" layer="51"/>
-<wire x1="-13.95" y1="6.25" x2="1.95" y2="6.25" width="0.1" layer="51"/>
-<wire x1="1.95" y1="6.25" x2="1.95" y2="-1.35" width="0.1" layer="51"/>
-<wire x1="1.95" y1="0" x2="1.95" y2="6.25" width="0.2" layer="21"/>
-<wire x1="1.95" y1="6.25" x2="-13.95" y2="6.25" width="0.2" layer="21"/>
-<wire x1="-13.95" y1="6.25" x2="-13.95" y2="-1.35" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="S7B-PH-K-S_LF__SN_">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-17.78" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" length="middle"/>
-<pin name="2" x="0" y="-2.54" length="middle"/>
-<pin name="3" x="0" y="-5.08" length="middle"/>
-<pin name="4" x="0" y="-7.62" length="middle"/>
-<pin name="5" x="0" y="-10.16" length="middle"/>
-<pin name="6" x="0" y="-12.7" length="middle"/>
-<pin name="7" x="0" y="-15.24" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="S7B-PH-K-S_LF__SN_" prefix="J">
-<description>&lt;b&gt;JST PH Series, Series Number S7B, 2mm Pitch 7 Way 1 Row Right Angle PCB Header, Through Hole Termination, 2A&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201513P"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="S7B-PH-K-S_LF__SN_" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SHDRRA7W50P0X200_1X7_1590X760X">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="JST PH Series, Series Number S7B, 2mm Pitch 7 Way 1 Row Right Angle PCB Header, Through Hole Termination, 2A" constant="no"/>
-<attribute name="HEIGHT" value="4.8mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="S7B-PH-K-S(LF)(SN)" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="8201513P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8201513P" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SML-E12P8WT86">
 <description>&lt;Standard LEDs - SMD SMD Green 2.5-16 mcd&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -8749,6 +8670,88 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="S8B-PH-K-S_LF__SN_">
+<description>&lt;JST PH Series, Series Number S8B, 2mm Pitch 8 Way 1 Row Right Angle PCB Header, Through Hole Termination, 2A&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SHDRRA8W50P0X200_1X8_1790X760X">
+<description>&lt;b&gt;S8B-PH-K-S(LF)(SN)&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.35" shape="square"/>
+<pad name="2" x="-2" y="0" drill="0.9" diameter="1.35"/>
+<pad name="3" x="-4" y="0" drill="0.9" diameter="1.35"/>
+<pad name="4" x="-6" y="0" drill="0.9" diameter="1.35"/>
+<pad name="5" x="-8" y="0" drill="0.9" diameter="1.35"/>
+<pad name="6" x="-10" y="0" drill="0.9" diameter="1.35"/>
+<pad name="7" x="-12" y="0" drill="0.9" diameter="1.35"/>
+<pad name="8" x="-14" y="0" drill="0.9" diameter="1.35"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="2.2" y1="-1.6" x2="-16.2" y2="-1.6" width="0.05" layer="51"/>
+<wire x1="-16.2" y1="-1.6" x2="-16.2" y2="6.5" width="0.05" layer="51"/>
+<wire x1="-16.2" y1="6.5" x2="2.2" y2="6.5" width="0.05" layer="51"/>
+<wire x1="2.2" y1="6.5" x2="2.2" y2="-1.6" width="0.05" layer="51"/>
+<wire x1="1.95" y1="-1.35" x2="-15.95" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="-15.95" y1="-1.35" x2="-15.95" y2="6.25" width="0.1" layer="51"/>
+<wire x1="-15.95" y1="6.25" x2="1.95" y2="6.25" width="0.1" layer="51"/>
+<wire x1="1.95" y1="6.25" x2="1.95" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="1.95" y1="0" x2="1.95" y2="6.25" width="0.2" layer="21"/>
+<wire x1="1.95" y1="6.25" x2="-15.95" y2="6.25" width="0.2" layer="21"/>
+<wire x1="-15.95" y1="6.25" x2="-15.95" y2="-1.35" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="S8B-PH-K-S_LF__SN_">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="0" y="-2.54" length="middle"/>
+<pin name="3" x="0" y="-5.08" length="middle"/>
+<pin name="4" x="0" y="-7.62" length="middle"/>
+<pin name="5" x="0" y="-10.16" length="middle"/>
+<pin name="6" x="0" y="-12.7" length="middle"/>
+<pin name="7" x="0" y="-15.24" length="middle"/>
+<pin name="8" x="0" y="-17.78" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="S8B-PH-K-S_LF__SN_" prefix="J">
+<description>&lt;b&gt;JST PH Series, Series Number S8B, 2mm Pitch 8 Way 1 Row Right Angle PCB Header, Through Hole Termination, 2A&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201517P"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="S8B-PH-K-S_LF__SN_" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SHDRRA8W50P0X200_1X8_1790X760X">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="JST PH Series, Series Number S8B, 2mm Pitch 8 Way 1 Row Right Angle PCB Header, Through Hole Termination, 2A" constant="no"/>
+<attribute name="HEIGHT" value="4.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="S8B-PH-K-S(LF)(SN)" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="8201517P" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8201517P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8771,12 +8774,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SIGA" library="S7B-PH-K-S_LF__SN_" deviceset="S7B-PH-K-S_LF__SN_" device=""/>
-<part name="SIGB" library="S7B-PH-K-S_LF__SN_" deviceset="S7B-PH-K-S_LF__SN_" device=""/>
-<part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="LED1" library="SML-E12P8WT86" deviceset="SML-E12P8WT86" device=""/>
 <part name="LED2" library="SML-E12P8WT86" deviceset="SML-E12P8WT86" device=""/>
 <part name="LED3" library="SML-E12P8WT86" deviceset="SML-E12P8WT86" device=""/>
@@ -8791,8 +8788,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="VDRIB" library="BS2P-SHF-1AA__LF__SN_" deviceset="BS2P-SHF-1AA__LF__SN_" device=""/>
 <part name="VSOL" library="BS2P-SHF-1AA__LF__SN_" deviceset="BS2P-SHF-1AA__LF__SN_" device=""/>
 <part name="Q1" library="2SK4017_Q_" deviceset="2SK4017_Q_" device=""/>
@@ -8826,6 +8821,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="MIN" library="S8B-PH-K-S_LF__SN_" deviceset="S8B-PH-K-S_LF__SN_" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8867,26 +8863,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </instance>
 <instance part="SUPPLY4" gate="GND" x="99.06" y="76.2" smashed="yes" rot="R270">
 <attribute name="VALUE" x="95.885" y="78.105" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="SIGA" gate="G$1" x="-17.78" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="-34.29" y="60.96" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="-34.29" y="63.5" size="1.778" layer="96" rot="R180" align="center-left"/>
-</instance>
-<instance part="SIGB" gate="G$1" x="-17.78" y="33.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="-34.29" y="25.4" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="-34.29" y="27.94" size="1.778" layer="96" rot="R180" align="center-left"/>
-</instance>
-<instance part="SUPPLY5" gate="GND" x="-15.24" y="68.58" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-12.065" y="66.675" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY6" gate="GND" x="-15.24" y="83.82" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-12.065" y="81.915" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY7" gate="GND" x="-15.24" y="48.26" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-12.065" y="46.355" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY8" gate="GND" x="-15.24" y="33.02" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-12.065" y="31.115" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="LED1" gate="G$1" x="-20.32" y="-30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="-29.21" y="-17.78" size="1.778" layer="95" rot="R90"/>
@@ -8939,12 +8915,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </instance>
 <instance part="+3V3" gate="G$1" x="-20.32" y="-2.54" smashed="yes">
 <attribute name="VALUE" x="-22.86" y="-7.62" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY12" gate="GND" x="-15.24" y="40.64" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-12.065" y="38.735" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY13" gate="GND" x="-15.24" y="76.2" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-12.065" y="74.295" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="VDRIB" gate="G$1" x="71.12" y="-33.02" smashed="yes">
 <attribute name="NAME" x="87.63" y="-25.4" size="1.778" layer="95" align="center-left"/>
@@ -9063,6 +9033,10 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <instance part="P+6" gate="1" x="-15.24" y="106.68" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-20.32" y="109.22" size="1.778" layer="96"/>
 </instance>
+<instance part="MIN" gate="G$1" x="-20.32" y="45.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="-36.83" y="38.1" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="-36.83" y="40.64" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9107,22 +9081,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SIGA" gate="G$1" pin="1"/>
-<pinref part="SUPPLY5" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SIGA" gate="G$1" pin="7"/>
-<pinref part="SUPPLY6" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SIGB" gate="G$1" pin="7"/>
-<pinref part="SUPPLY7" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SIGB" gate="G$1" pin="1"/>
-<pinref part="SUPPLY8" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="LED1" gate="G$1" pin="K"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
 </segment>
@@ -9133,14 +9091,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <segment>
 <pinref part="LED3" gate="G$1" pin="K"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SIGB" gate="G$1" pin="4"/>
-<pinref part="SUPPLY12" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SIGA" gate="G$1" pin="4"/>
-<pinref part="SUPPLY13" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="CATHODE"/>
@@ -9212,82 +9162,80 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="SIGA" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="71.12" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="71.12" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="A1" gate="G$1" pin="IN1"/>
 <wire x1="33.02" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="MIN" gate="G$1" pin="5"/>
+<wire x1="-20.32" y1="55.88" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="55.88" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="SIGA" gate="G$1" pin="3"/>
-<wire x1="-17.78" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="73.66" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="A1" gate="G$1" pin="IN2"/>
 <wire x1="30.48" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="MIN" gate="G$1" pin="6"/>
+<wire x1="-20.32" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="58.42" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="SIGA" gate="G$1" pin="5"/>
-<wire x1="-17.78" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="78.74" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="A2" gate="G$1" pin="IN1"/>
-<wire x1="38.1" y1="40.64" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="MIN" gate="G$1" pin="7"/>
+<wire x1="-20.32" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="60.96" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="40.64" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="SIGA" gate="G$1" pin="6"/>
-<wire x1="-17.78" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="81.28" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="A2" gate="G$1" pin="IN2"/>
-<wire x1="27.94" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="MIN" gate="G$1" pin="8"/>
+<wire x1="33.02" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="63.5" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="38.1" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="SIGB" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="35.56" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="60.96" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="B1" gate="G$1" pin="IN1"/>
 <wire x1="93.98" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="MIN" gate="G$1" pin="1"/>
+<wire x1="-20.32" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="SIGB" gate="G$1" pin="3"/>
-<wire x1="-17.78" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="38.1" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="63.5" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="63.5" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="B1" gate="G$1" pin="IN2"/>
 <wire x1="91.44" y1="81.28" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="MIN" gate="G$1" pin="2"/>
+<wire x1="-20.32" y1="48.26" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="48.26" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="SIGB" gate="G$1" pin="5"/>
-<wire x1="-17.78" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="43.18" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="50.8" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="B2" gate="G$1" pin="IN1"/>
 <wire x1="96.52" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="MIN" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="SIGB" gate="G$1" pin="6"/>
-<wire x1="-17.78" y1="45.72" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="45.72" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="53.34" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="B2" gate="G$1" pin="IN2"/>
 <wire x1="93.98" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="MIN" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$9" class="0">
